@@ -1,0 +1,51 @@
+:root {
+    --primary-color: rgb(83, 206, 30);
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* container */
+hr {
+    margin: 2rem 0rem;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+.Link {
+    text-decoration: none;
+    padding: 0.5em 1rem;
+}
+.primary-link {
+    background-color: var(--primary-color);
+    /* text-decoration: none; */
+    
+    border-radius: 0.5rem; 
+    color: white;
+    /* text-decoration: none ; */
+}
+
+.secondary-link {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem ;
+
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+}
+
