@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Lexend Deca' rel='stylesheet'>
+    <link rel="stylesheet" href="C:\Users\asus\Desktop\gitdesk\MyPortFolio\app.css">
+    <title>Component Library</title>
+</head>
+
+<body>
+    <h1>Welcome to My PortFolio</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, explicabo eaque corporis aspernatur libero, ipsam
+        praesentium consequuntur quis necessitatibus ut quas esse reprehenderit! Illum est doloremque qui atque
+        voluptates ipsam!
+        Quae in ullam fugit ipsum nesciunt suscipit nobis perferendis culpa eligendi nemo harum nam libero eum iusto,
+        assumenda quis dolores blanditiis non dicta delectus explicabo consectetur rerum voluptate ratione. Ipsa!
+    </p>
+
+    <hr>
+
+    <h2>@typography</h2>
+
+    <h1>This is the biggest heading</h1>
+    <h2>This the second biggest</h2>
+
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptatibus totam adipisci velit quasi,
+        earum optio aut ducimus dicta ut dignissimos deleniti debitis magnam necessitatibus! Sit at aliquid rerum
+        obcaecati!
+    </p>
+    <p>
+        This paragraph will have a <strong>bold</strong> text.
+    </p>
+    <small>This the smallest one</small>
+
+    <hr>
+
+    <h2>@Container</h2>
+
+    <h3>Fluid Container</h3>
+    <div class="container-fluid">
+        This is a fluid container and it will go till the end of the page.
+    </div>
+
+    <h3>Center Container</h3>
+    <div class="container-center">
+        This is a centered container and it will go till the specified width.
+    </div>
+
+    <hr>
+
+    <h2>@Links</h2>
+
+    <a class="Link primary-link" href="/">Primary Link</a>
+    <a class="Link secondary-link" href="E:">Secondary Link</a>
+
+    <hr>
+
+    <h4>@Wrong way of declaring the lists</h4>
+    <p>Wrong declaration in the sense that you are not telling the browser that this is a list.</p>
+    <div>
+        Here's my list
+        <div>1. Item One</div>
+        <div class="">2. Item Two</div>
+        <div class="">3. Item Three</div>
+    </div>
+
+    <hr>
+
+    <h4>Proper way of declaring the list is using list tags</h4>
+
+    <h5>Unordered Lists</h5>
+
+    <ul class="list-non-bullet">
+        <li class="">Item One</li>
+        <li>Item two</li>
+        <li>Item Three</li>
+    </ul>
+
+    <h5>Unordered Inline List</h5>
+    <p>This list will not have the bullets</p>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
+    </ul>
+
+    <h5>Reversed Ordered Lists</h5>
+
+    <ol>
+        <li>milk</li>
+        <li>Eggs</li>
+        <li>Bread</li>
+    </ol>
+
+    <hr>
+
+    <h2>@Nav</h2>
+
+    <nav class="navigation container">
+        <div class="nav-brand">IAmBrand</div>
+
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="Link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="Link" href="/">products</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="Link" href="/">about</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2>@Header</h2>
+
+    <header class="hero">
+        <img class="hero-img" src="C:\Users\asus\Desktop\gitdesk\MyPortFolio\images\reactImg.svg">
+        <h1 class="hero-heading">I am a <span class="heading-inverted">Web Developer</span></h1>
+    </header>
+
+    <hr>
+    <h2>@Section</h2>
+    <section class="section">
+        <div class="container container-center ">
+            <h1>white section</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsa doloribus natus corporis ipsum adipisci laborum magni quia tempore facere nobis, sunt accusamus aperiam, vero expedita earum esse dolores voluptatem.</p>
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center ">
+            <h1>grey section</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quia nesciunt molestiae, dolorum sequi necessitatibus officiis velit pariatur dolor, illo corrupti ratione odit impedit dicta consequuntur eaque eos aliquid exercitationem.</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+
+    <footer class="footer">
+        <div class="footer-header">Some small heading inside footer</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="Link" href="/">social one</a></li>
+            <li class="list-item-inline"><a class="Link" href="/">social two</a></li>
+            <li class="list-item-inline"><a class="Link" href="/">social three</a></li>
+        </ul>
+    </footer>
+
+    <!-- <div style="height: 30vh;"></div> -->
+</body>
+
+</html>
