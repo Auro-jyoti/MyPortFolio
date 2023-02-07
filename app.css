@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Lexend Deca', sans-serif;
+    margin: 0;
 }
 
 /* container */
@@ -57,7 +58,7 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
+    padding: 2rem 1rem;
     border-bottom-left-radius: 1rem;
 }
 .navigation .nav-brand{
@@ -90,6 +91,7 @@ hr {
     color: var(--dark-gray);
     text-align: center;
     padding: 1rem;
+    text-align: center;
 }
 
 .hero .hero-heading .heading-inverted {
@@ -107,4 +109,22 @@ hr {
 .ow {
     background-color: var(--off-white);
 }
+
+/* footer */
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    color: white;
+}
  
+
+.footer .Link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
