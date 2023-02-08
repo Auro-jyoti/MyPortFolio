@@ -6,42 +6,53 @@
 
 body {
     font-family: 'Lexend Deca', sans-serif;
-    margin: 0;
+    margin: 0 auto;
+    max-width: 85%;
+    width: 100%;
 }
 
 /* container */
 hr {
     margin: 2rem 0rem;
 }
-
+/* .margin-md {
+    margin: 2rem;
+} */
+/* spaces */
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    padding: 0rem 1rem; 
 }
 
 .container-center{
-    max-width: 600px;
+    max-width: 900px;
+    width: 100%;
     margin: auto;
 }
 
 .Link {
+    box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5em 1rem;
+    padding: 0.5rem 1rem;
 }
 .primary-link {
     background-color: var(--primary-color);
-    /* text-decoration: none; */
+    color: white;  
+    max-width: 140px;
+    border-radius: 2rem; 
+    padding: 0.6em 1rem;
+    margin: 1rem auto;
     
-    border-radius: 0.5rem; 
-    color: white;
-    /* text-decoration: none ; */
 }
 
 .secondary-link {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
-    border-radius: 0.5rem ;
-
+    border-radius: 2rem ;
+    padding: 0.6rem 1.4rem;
+    max-width: 140px;
+    margin: 1rem auto;
 }
 
 .list-non-bullet {
@@ -68,6 +79,7 @@ hr {
 
 .navigation .nav-pills{
     text-align: right;
+    margin: 0.6rem 1rem;
 }
 .navigation .Link {
     color: white;
@@ -80,6 +92,7 @@ hr {
 /* Header */
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -102,6 +115,10 @@ hr {
 /* Section */
 .section {
     padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
+
 }
 .section h1 {
     text-align: center;
@@ -109,6 +126,10 @@ hr {
 
 .ow {
     background-color: var(--off-white);
+}
+
+.section p {
+    padding-bottom: 1rem;
 }
 
 /* footer */
@@ -134,3 +155,38 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
+
+/* projects */
+.showcase-list{
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: auto;
+    /* margin: auto; */
+    text-align: center;
+}
+/* .showcase-list h1 {
+    /* margin: 0.5rem;
+} */
+
+.showcase-list p {
+    padding-bottom: 1rem;
+}
+
+@media (max-width: 900px){
+    body {
+        max-width: 95%;
+        width: 100%;
+    }
+    .container-center {
+        width: auto;
+    }
+    .primary-link {
+        display: block;
+    }
+    .list-item-inline {
+        display: inline;
+        padding: 0rem;
+    }
+}
+    
