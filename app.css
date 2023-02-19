@@ -118,7 +118,6 @@ hr {
     margin: 2rem 0;
     border-radius: 1rem;
     text-align: center;
-
 }
 .section h1 {
     text-align: center;
@@ -141,7 +140,6 @@ hr {
     border-top-right-radius: 1rem;
     color: white;
 }
- 
 
 .footer .Link {
     color: white;
@@ -174,7 +172,28 @@ hr {
 
 
 /* blogs */
+.section .container .hero-heading {
+    color: var(--dark-gray);
+}
 
+.section .container .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+.blogPost {
+    max-width: 600px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: auto;
+}
+
+.date {
+    margin-right: 510px;
+}
+.blog {
+    padding-bottom: 3rem;
+}
 @media (max-width: 900px){
     body {
         max-width: 95%;
@@ -191,7 +210,17 @@ hr {
         padding: 0rem;
     }
     .hero-img-blogs{
-        display: block;
+        max-width: 400px;
+        margin: auto;
+    }
+    /* .header-date {
+        padding: 10px;
+    } */
+    .date {
+        margin-right: 260px;
+    }
+    .blog {
+        padding-left: 2rem;
     }
 }
     
